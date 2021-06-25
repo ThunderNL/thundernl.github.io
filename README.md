@@ -1,5 +1,5 @@
 # Welcome to my website
-![logo](https://i.imgur.com/Hdo697y_d.jpg?maxwidth=256)
+![logo](640px.jpg)
 ## Games I made
 - [Spacy](https://thundernl.github.io/Spacy/) (A Space Invaders inspired game)
 - _And more to come..._
