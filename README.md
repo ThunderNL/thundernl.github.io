@@ -1,11 +1,7 @@
-# Welcome to my website
-![logo](640px.jpg)
-## Games I made
-- [Spacy](https://thundernl.github.io/Spacy/) (A Space Invaders inspired game)
-- _And more to come..._
-
-## About me
-Hi, I'm **Stijn**, a learning developer. I'm 14 years old and I live in the Netherlands. Currently I code with blockcode, using MakeCode Arcade. I have made some games and I am trying to make more complicated games.
-
-## Contact me
-- Discord: `ThunderNL#2324`
+# ThunderNL - Stijn
+## Social media:
+### Tiktok: [@thundernl](tiktok.com/@thundernl)
+### Reddit: [u/ThunderNL](reddit.com/u/thundernl)
+### Snapchat: [thundernl](snapchat.com/add/thundernl)
+## A game I made because why not
+### [Spacy](https://thundernl.github.io/Spacy/) (A Space Invaders inspired game)
