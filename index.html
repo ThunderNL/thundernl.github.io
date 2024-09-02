@@ -1,29 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>ThunderNL</title>
-  <link rel="icon" type="image/x-icon" href="favicon.png">
-  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
-  <link rel="stylesheet" href="custom.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ThunderNL</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <style>
+        .linklist {
+            display: grid;
+            gap: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .link-item {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 20px;
+            height: 100px;
+            color: inherit;
+			font-size: 20px;
+            transition: transform 0.5s, box-shadow 0.5s, border 0.5s;
+        }
+        .link-item img {
+            width: 50px;
+            margin: 10px;
+        }
+        .link-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 32px rgba(255, 255, 128, 0.5);
+            border: 1px solid #80ffff;;
+        }
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+			margin: 20px;
+        }
+        .header-image {
+		    border-radius: 20px;
+            width: 100px;
+            margin-right: 20px;
+        }
+        .header-text {
+            font-size: 50px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-  <h1><img src="favicon.png" width="32"> ThunderNL</h1>
-  <a href="https://github.com/ThunderNL/thundernl.github.io"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/thundernl/thundernl.github.io?logo=github"></a>
-  <h3>Links:
-<ul><li><a href="/startpage">Startpage</a></li>
-<li><a href="https://www.tsmp.nl.eu.org/"><b>ThunderSMP</b></a></li>
-<li><a href="https://thundernl.itch.io/">itch.io: ThunderNL</a></li>
-<li><a href="https://tiktok.com/@thundernl">Tiktok: @thundernl</a></li>
-<li><s><a href="https://reddit.com/u/thundernl">Reddit: u/ThunderNL</a></s></li>
-<li><a href="https://feddit.nl/u/tnlx">Lemmy: @tnlx@feddit.nl</a></li>
-<li><a href="https://www.snapchat.com/add/thundernl">Snapchat: thundernl</a></li>
-<li><a href="https://discord.com/users/296635268788912128">Discord: tnlx</a></li>
-<li><a href="https://matrix.to/#/@tnlx:envs.net">Matrix: @tnlx:envs.net</a></li>
-<li><a href="https://bere.al/thundernl">BeReal: thundernl</a></li>
-<li><s><a href="https://twitter.com/ThunderNL1">Twitter: @ThunderNL1</a></s></li>
-<li><a href="https://steamcommunity.com/id/thundernlx">Steam: ThunderNL</a></li>
-<li><a href="https://www.roblox.com/users/138852238">Roblox: @SuperRobloxGamerBoyS</a></li>
-</ul></h3>
+<section class="section">
+    <div class="container">
+        <div class="header-container">
+            <img src="thundernl.png" alt="ThunderNL Logo" class="header-image">
+            <div class="header-text">ThunderNL</div>
+        </div>
+        
+        <ul class="linklist">
+            <li>
+                <a class="link-item" href="https://www.tsmp.nl.eu.org/">
+                    <img src="thundersmp.png" alt="ThunderSMP">
+                    <b>ThunderSMP</b>
+                </a>
+            </li>
+            <li>
+                <a class="link-item" href="https://tiktok.com/@thundernl">
+                    <img src="tiktok.svg" alt="Tiktok">
+                    Tiktok: @thundernl
+                </a>
+            </li>
+            <li>
+                <a class="link-item" href="https://feddit.nl/u/tnlx">
+                    <img src="lemmy.svg" alt="Lemmy">
+                    Lemmy: @tnlx@feddit.nl
+                </a>
+            </li>
+            <li>
+                <a class="link-item" href="https://www.snapchat.com/add/thundernl">
+                    <img src="snapchat.svg" alt="Snapchat">
+                    Snapchat: thundernl
+                </a>
+            </li>
+            <li>
+                <a class="link-item" href="https://discord.com/users/296635268788912128">
+                    <img src="discord.svg" alt="Discord">
+                    Discord: tnlx
+                </a>
+            </li>
+            <li>
+                <a class="link-item" href="https://bere.al/thundernl">
+                    <img src="bereal.svg" alt="BeReal">
+                    BeReal: thundernl
+                </a>
+            </li>
+            <li>
+                <a class="link-item" href="https://steamcommunity.com/id/thundernlx">
+                    <img src="steam.svg" alt="Steam">
+                    Steam: ThunderNL
+                </a>
+            </li>
+            <li>
+                <a class="link-item" href="https://www.roblox.com/users/138852238">
+                    <img src="roblox.svg" alt="Roblox">
+                    Roblox: @SuperRobloxGamerBoyS
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
 </body>
 </html>
